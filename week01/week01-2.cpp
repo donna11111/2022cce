@@ -1,10 +1,14 @@
 #include <stdio.h>
-
 int main()
 {
-    printf("hello world\n");
-    printf("hello world\n");
-    printf("我是李岱璇\n");
-    ///有時候中文會有問題，可用英文
-    //註解
+    printf("請輸入1個字母: ");
+    char c;
+    scanf("%c", &c);
+    printf("你輸入了 %c \n",c);
+
+    printf("請輸入1個整數: ");
+    int a;
+    scanf("%d",&a);
+    printf("你輸入了 %d \n", a);
+    return 0;
 }
